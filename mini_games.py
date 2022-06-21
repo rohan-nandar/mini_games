@@ -1,6 +1,7 @@
 import random
 
-def startup() :
+
+def startup():
     print("There are several games, which would you like to play?")
     print("(1) Guess the number")
     print("(2) Simple addition")
@@ -36,8 +37,6 @@ def guess_num():
         guess_num()
     elif play_again == "y":
         startup()
-
-
 
 
 startup()
